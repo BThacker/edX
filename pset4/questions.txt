@@ -1,0 +1,20 @@
+0.  Max Colors = BMP: 16M GIF: 256 JPEG: 16M PNG: 256
+1.  GIF supports animation
+2.  In lossless compression, when uncompressed all bits are recovered. In lossy, when it is compressed it has certain
+    parts of information permanently eliminated. 
+3.  JPEG is lossy compressed
+4.  The pointer to the file is removed and it is marked as free space, however not completely removed.
+5.  Overwrite all the sectors with a DOD pattern, or physically destroy the hard drive platters.
+6.  stdint.h declares a header of integer types having specified widths and defines a corresponding set of macros.
+7.  To define exact integer width types
+8.  BYTE = 1, DWORD = 4, LONG = 4, WORD = 2
+9.  B and then M
+10. Bisize is the number of bytes for a structure, bfsize is the entire image size
+11. The bitmap would be a top down DIB
+12. BMIColors
+13. If you couldn't open or work with the file, maybe it's already locked or something similar
+14. Because of the byte size
+15. Because to be a valid bmp, you need to be 4 wide
+16. Sets the file position indicator for the stream pointed to by the stream
+17. Seeks the current stream 
+18. Rob Bowden

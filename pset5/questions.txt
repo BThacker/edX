@@ -1,0 +1,11 @@
+0.  Lung disease otherwise known as silicosis
+1.  Returns resource usage measures for WHO
+2.  16
+3.  It's based on current values, not reference values
+4.  Opens the file, starts loop, checks if we are not at end of file, allows only alpha numeric characters and ignores digits, ignores strings that are too long to be words, if it finds a whole word it then cross checks the dictionary for that word and if it finds a close match, it corrects the provided word with the corrected word.    
+5.  It might be less accurate
+6.  They are not expected to change, and as a result might be faster this way? Not exactly sure. 
+7.  I used a trie. It's based on a standard alphabet.
+8.  I am not sure as I am on a fast computer. It seemed to work pretty quickly. less than 10 ms
+9.  Streamlined the process for how my trie was built
+10. It seems pretty quick, but I am sure there are areas for improvement. I am happy with the results. 
